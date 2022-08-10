@@ -25,7 +25,7 @@ export default {
             this.$fire.auth.signOut();
             window.location = "/login";
         },
-    },
+    },  
     components: { SignIn },
 };
 </script>
