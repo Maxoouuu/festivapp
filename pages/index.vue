@@ -49,7 +49,7 @@
           <v-btn color="primary" nuxt to="/inspire">
             Continue
           </v-btn>
-           <v-btn color="primary" v-on:click="signOut()">
+          <v-btn color="primary" v-on:click="signOut()">
             Sign out
           </v-btn>
         </v-card-actions>
@@ -61,9 +61,9 @@
 <script>
 export default {
   name: 'IndexPage',
-  
+
   methods: {
-    signOut(){
+    signOut() {
       this.$fire.auth.signOut();
       window.location = "/login"
     }
