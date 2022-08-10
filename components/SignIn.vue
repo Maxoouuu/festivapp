@@ -13,7 +13,7 @@ export default {
     const config = {
       signInOptions: [
         this.$fireModule.auth.EmailAuthProvider.PROVIDER_ID,
-        this.$fireModule.auth.GoogleAuthProvider.PROVIDER_ID,
+        //this.$fireModule.auth.GoogleAuthProvider.PROVIDER_ID,
       ],
       signInSuccessUrl: "/",
       callbacks: {

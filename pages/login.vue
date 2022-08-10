@@ -1,14 +1,10 @@
 <template>
-    <div>
-        <v-container>
-            <h1>
-                Welcome <span v-if="currentUser">{{ currentUser.displayName }}</span>
-            </h1>
-            <v-card elevcation="2" class="pa-5">
-                <SignIn />
-            </v-card>
-        </v-container>
-    </div>
+    <v-container>
+        <v-card class="pa-5">
+            
+            <SignIn />
+        </v-card>
+    </v-container>
 </template>
 
 <script>
@@ -25,7 +21,7 @@ export default {
             this.$fire.auth.signOut();
             window.location = "/login";
         },
-    },  
+    },
     components: { SignIn },
 };
 </script>

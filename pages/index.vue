@@ -61,6 +61,7 @@
 <script>
 export default {
   name: 'IndexPage',
+  
   methods: {
     signOut(){
       this.$fire.auth.signOut();
