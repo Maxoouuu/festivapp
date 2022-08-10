@@ -1,7 +1,6 @@
 <template>
     <v-container>
         <v-card class="pa-5">
-            
             <SignIn />
         </v-card>
     </v-container>
