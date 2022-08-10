@@ -25,8 +25,8 @@
       </v-btn>
       <v-toolbar-title v-text="title" />
       <v-spacer />
-      <v-btn icon @click.stop="fixed = !fixed" >
-        <v-icon>mdi-plus</v-icon>
+      <v-btn icon @click.stop="fixed = !fixed" class="mr-2">
+        <v-icon >mdi-plus</v-icon>
       </v-btn>
       <v-btn>
         <div v-if="currentUser">{{ currentUser.displayName }}</div>
