@@ -53,7 +53,11 @@ export default {
 
           appId: "1:963698309433:web:a2f727786bfe269c2090e8",
 
-          measurementId: "G-2JN1VJLYX1"
+          measurementId: "G-2JN1VJLYX1",
+
+          storageBucket: "gs://nuxt-firebaseauth-cbed4.appspot.com",
+
+          databaseURL: "https://nuxt-firebaseauth-cbed4-default-rtdb.europe-west1.firebasedatabase.app/",
         },
         services: {
           auth: {

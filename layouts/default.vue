@@ -11,7 +11,7 @@
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
-        <v-spacer />
+
         <v-btn color="primary" v-on:click="signOut()" class="sign-out">
           Sign out
         </v-btn>
@@ -29,9 +29,9 @@
 
       <v-toolbar-title v-text="title" class="ml-2" />
       <v-spacer />
-      <v-btn icon @click.stop="fixed = !fixed" class="mr-2">
+      <!-- <v-btn icon @click.stop="fixed = !fixed" class="mr-2">
         <v-icon>mdi-plus</v-icon>
-      </v-btn>
+      </v-btn> -->
       <v-btn color="primary">
         <div v-if="currentUser">{{ currentUser.displayName }}</div>
         <div v-else>
@@ -81,6 +81,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'AddPost',
           to: '/AddPost'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Posts',
+          to: '/posts'
         }
       ],
       miniVariant: false,

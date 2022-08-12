@@ -81,7 +81,7 @@ export default {
         description: this.description,
       }
       this.$store.dispatch('createPost', postData)
-      this.$router.push('/posts')
+      this.$router.push('/index')
     },
     onPickFile() {
       this.$refs.fileInput.click()
