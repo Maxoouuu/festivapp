@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@nuxt/image": "^0.7.1",
-    "@nuxtjs/vuetify": "^1.12.3"
+    "@nuxtjs/vuetify": "^1.12.3",
+    "netlify-cli": "^10.17.2"
   }
 }
