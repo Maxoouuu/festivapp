@@ -1,11 +1,26 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
+  <v-container>
+    <v-layout flex row wrap>
+
+      <div class="div">
+        <h2>Festivapp</h2>
+      </div>
+      <div class="div">
+        <h3>Le réseaux social spécialement fait pour les festivals</h3>
+      </div>
+
+      <div class="div">
+        <p>Connectez vous pour pouvoir poster du contenu</p>
+      </div>
+
+      <div class="div">
+        <v-btn to="/posts">Voir les posts</v-btn>
+      </div>
 
 
 
-    </v-col>
-  </v-row>
+    </v-layout>
+  </v-container>
 
 </template>
 
@@ -39,3 +54,11 @@ export default {
 
 </script>
 
+<style>
+.div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin:20px 0;
+}
+</style>
