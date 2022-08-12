@@ -5,7 +5,7 @@
                 <div flex justify-center width="100%" > 
                     <v-card class="v-card ">
                         <v-card-title>
-                            <h6 class="primary--text">Titre</h6>
+                            <h6 class="primary--text">Festival</h6>
                         </v-card-title>
                         <img src="..\static\festival.png" width="100%">
                         <v-card-text>
@@ -13,13 +13,13 @@
                             <div>La description du festival</div>
                         </v-card-text>
                         <v-card-actions>
-                            <div>Afficher les commentaire</div>
+                            <div>Afficher les commentaires</div>
                         </v-card-actions>
                     </v-card>
 
                     <v-card class="v-card ">
                         <v-card-title>
-                            <h6 class="primary--text">Titre</h6>
+                            <h6 class="primary--text">Festival </h6>
                         </v-card-title>
                         <img src="..\static\festival2.png" width="100%">
                         <v-card-text>
@@ -27,7 +27,7 @@
                             <div>La description du festival</div>
                         </v-card-text>
                         <v-card-actions>
-                            <div>Afficher les commentaire</div>
+                            <div>Afficher les commentaires</div>
                         </v-card-actions>
                     </v-card>
                 </div>
@@ -52,7 +52,4 @@ export default {
     margin-bottom: 20px;
 }
 
-.card-w {
-    max-width: 600px;
-}
 </style>
