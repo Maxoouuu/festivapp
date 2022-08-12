@@ -1,34 +1,36 @@
 <template>
-    <v-container>
+    <v-container >
         <v-layout row wrap flex justify-center>
-            <v-flex justify-center>
-                <v-card class="v-card card-w">
-                    <v-card-title>
-                        <h6 class="primary--text">Titre</h6>
-                    </v-card-title>
-                    <img src="..\static\festival.png" width="100%">
-                    <v-card-text>
-                        <div class="info--text"> Localisation</div>
-                        <div>La description du festival</div>
-                    </v-card-text>
-                    <v-card-actions>
-                       <div>Afficher les commentaire</div>
-                    </v-card-actions>
-                </v-card>
-                
-                <v-card class="v-card card-w ">
-                    <v-card-title>
-                        <h6 class="primary--text">Titre</h6>
-                    </v-card-title>
-                    <img src="..\static\festival2.png" width="100%">
-                    <v-card-text>
-                        <div class="info--text"> Localisation</div>
-                        <div>La description du festival</div>
-                    </v-card-text>
-                    <v-card-actions>
-                       <div>Afficher les commentaire</div>
-                    </v-card-actions>
-                </v-card>
+            <v-flex >
+                <div flex justify-center width="100%" > 
+                    <v-card class="v-card ">
+                        <v-card-title>
+                            <h6 class="primary--text">Titre</h6>
+                        </v-card-title>
+                        <img src="..\static\festival.png" width="100%">
+                        <v-card-text>
+                            <div class="info--text"> Localisation</div>
+                            <div>La description du festival</div>
+                        </v-card-text>
+                        <v-card-actions>
+                            <div>Afficher les commentaire</div>
+                        </v-card-actions>
+                    </v-card>
+
+                    <v-card class="v-card ">
+                        <v-card-title>
+                            <h6 class="primary--text">Titre</h6>
+                        </v-card-title>
+                        <img src="..\static\festival2.png" width="100%">
+                        <v-card-text>
+                            <div class="info--text"> Localisation</div>
+                            <div>La description du festival</div>
+                        </v-card-text>
+                        <v-card-actions>
+                            <div>Afficher les commentaire</div>
+                        </v-card-actions>
+                    </v-card>
+                </div>
             </v-flex>
         </v-layout>
     </v-container>
@@ -46,10 +48,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.v-card{
-    margin-bottom: 20px ;
+.v-card {
+    margin-bottom: 20px;
 }
-.card-w{
+
+.card-w {
     max-width: 600px;
 }
 </style>
