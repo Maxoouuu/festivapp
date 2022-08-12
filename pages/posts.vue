@@ -7,7 +7,8 @@
                         <v-card-title>
                             <h6 class="primary--text">Festival</h6>
                         </v-card-title>
-                        <img src="..\static\festival.png" width="100%" alt="image">
+                        <!-- https://stackoverflow.com/questions/72114237/how-to-access-static-images-in-nuxt-production-application-hosted-on-vercel -->
+                        <!-- <img src="..\static\festival.png" width="100%" alt="image"> -->
                         <v-card-text>
                             <div class="info--text"> Localisation</div>
                             <div>La description du festival</div>
@@ -21,7 +22,7 @@
                         <v-card-title>
                             <h6 class="primary--text">Festival </h6>
                         </v-card-title>
-                        <img src="..\static\festival2.png" width="100%" alt="image">
+                        <!-- <img src="..\static\festival2.png" width="100%" alt="image"> -->
                         <v-card-text>
                             <div class="info--text"> Localisation</div>
                             <div>La description du festival</div>
