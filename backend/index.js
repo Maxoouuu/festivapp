@@ -1,6 +1,5 @@
 /* Depedancies */
 const express = require('express')
-
 const { initializeApp, applicationDefault, cert } = require('firebase-admin/app');
 const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore');
 
@@ -32,4 +31,4 @@ app.get('/posts', (request, response) => {
 
 
 /* Listen */
-app.listen(8080)
+app.listen(process.env.PORT || 8080)

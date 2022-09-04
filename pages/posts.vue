@@ -7,7 +7,6 @@
                         <v-card-title>
                             <h6 class="primary--text">Festival</h6>
                         </v-card-title>
-                        <!-- https://stackoverflow.com/questions/72114237/how-to-access-static-images-in-nuxt-production-application-hosted-on-vercel -->
                         <img src="../assets/images/festival.png" width="100%" alt="image">
                         <v-card-text>
                             <div class="info--text"> Localisation</div>
@@ -39,12 +38,12 @@
 
 <script>
 export default {
-    /* props: ['id'],
+    props: ['id'],
     computed: {
         post() {
             return this.$store.getters.loadedPost(this.id)
         }
-    } */
+    } 
 }
 </script>
 

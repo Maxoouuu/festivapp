@@ -25,29 +25,33 @@
 </template>
 
 <script>
+import axios from 'axios';
 
 export default {
   name: "IndexPage",
-  /* data() {
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  data() {
     return {
       posts: [
-
       ]
     }
   },
   methods: {
     getPosts() {
-      this.$axios.get('http://localhost:8080/posts').then(response =>{
-        response.set ('Access-Control-Allow-Origin', '*')
+      /* this.$axios.get('http://localhost:8080/posts').then(response => {
+        response.set('Access-Control-Allow-Origin', '*')
         console.log('response', response)
-      }).catch(err =>{
-        console.log('err', err)
-      })
+      }).catch(err => {
+        console.log('err : ', err)
+      }) */
+      /* console.log('getPosts') */
     }
   },
   created() {
     this.getPosts()
-  } */
+  }
 
 }
 
@@ -59,6 +63,6 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin:20px 0;
+  margin: 20px 0;
 }
 </style>
