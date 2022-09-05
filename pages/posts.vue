@@ -9,7 +9,7 @@
                         </v-card-title>
                         <img src="../assets/images/festival.png" width="100%" alt="image">
                         <v-card-text>
-                            <div class="info--text"> Paris</div>
+                            <div class="info--text">localisation : Paris</div>
                             <div>Une ambiance de dingue</div>
                         </v-card-text>
                         <v-card-actions>
@@ -23,7 +23,7 @@
                         </v-card-title>
                         <img src="../assets/images/festival2.png" width="100%" alt="image">
                         <v-card-text>
-                            <div class="info--text"> Rennes</div>
+                            <div class="info--text">localisation : Rennes</div>
                             <div>le meilleur festival</div>
                         </v-card-text>
                         <v-card-actions>
@@ -37,7 +37,7 @@
                         </v-card-title>
                         <img src="../assets/images/festival3.jpeg" width="100%" alt="image">
                         <v-card-text>
-                            <div class="info--text"> nantes</div>
+                            <div class="info--text">localisation : nantes</div>
                             <div>Trop bien </div>
                         </v-card-text>
                         <v-card-actions>
